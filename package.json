@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JuanPabloTyrlik/Node-WebServer/issues"
   },
-  "homepage": "https://github.com/JuanPabloTyrlik/Node-WebServer#readme"
+  "homepage": "https://github.com/JuanPabloTyrlik/Node-WebServer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
