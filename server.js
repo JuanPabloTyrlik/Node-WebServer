@@ -3,15 +3,14 @@ const app = express();
 
 app.use(express.static(__dirname + '/public'));
 
-// app.get('/', (req, res) => {
-//     let salida = {
-//         nombre: 'Juan Pablo',
-//         apellido: 'Tyrlik',
-//         url: req.url
-//     };
+app.set('view engine', 'hbs');
 
-//     res.send(salida);
-// });
+app.get('/', (req, res) => {
+    res.render('home', {
+        nombre: 'Juan Pablo',
+        anio: new Date().getFullYear()
+    });
+});
 
 app.listen(3000, () => {
     console.log('Escuchando el puerto 3000');
