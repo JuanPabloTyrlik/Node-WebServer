@@ -1,23 +1,24 @@
 {
-  "name": "06-webserver",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JuanPabloTyrlik/Node-WebServer.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JuanPabloTyrlik/Node-WebServer/issues"
-  },
-  "homepage": "https://github.com/JuanPabloTyrlik/Node-WebServer#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "hbs": "^4.1.1"
-  }
+    "name": "06-webserver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JuanPabloTyrlik/Node-WebServer.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JuanPabloTyrlik/Node-WebServer/issues"
+    },
+    "homepage": "https://github.com/JuanPabloTyrlik/Node-WebServer#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "hbs": "^4.1.1"
+    }
 }
